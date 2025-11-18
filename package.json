@@ -1,0 +1,17 @@
+{
+  "name": "awesome-gpt4o-images",
+  "version": "1.0.0",
+  "description": "GPT-4o Images Gallery - Web Application",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../web && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:web": "cd web && npm run dev",
+    "build:web": "cd web && npm run build",
+    "start:server": "cd server && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
